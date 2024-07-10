@@ -30,8 +30,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 
     if (isValid) {
-        // Form submission logic (e.g., send data to server)
-        // You can use technologies like AJAX or fetch to send the data to a server-side script
 
         // Display success message
         document.getElementById('success-message').textContent = 'Your query has been received , We will contact you soon.';
